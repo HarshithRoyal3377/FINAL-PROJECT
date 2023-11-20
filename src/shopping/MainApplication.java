@@ -96,8 +96,8 @@ public class MainApplication {
 		    System.out.println("Please Log In.");
 		    break;
 		}
-		// View cart
-		cart.viewCart();
+		
+		
 		double totalCost = cart.calculateTotalCost();
 		System.out.println("Total amount to be paid: $" + totalCost);
 		break;
@@ -113,7 +113,7 @@ public class MainApplication {
 		    System.out.println(" Shopping Cart is empty.");
 		    break;
 		}
-		cart.viewCart();
+		
 		double cost = cart.calculateTotalCost();
 		System.out.println("Total amount to be paid: $" + cost);
 		System.out.println("Select payment method:");
